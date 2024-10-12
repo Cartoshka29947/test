@@ -1,0 +1,13 @@
+.menuItem {
+    border: 5px solid pink;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+.menuItem .submenu {
+    height: 50px;
+    width: 130px;
+    background-color: blueviolet;
+    position: absolute;
+    cursor: pointer;
+}
