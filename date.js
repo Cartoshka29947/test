@@ -1,16 +1,17 @@
-// // First way
-// const num1 = prompt();
-// const num2 = prompt();
-// const btn = document.getElementById("btn");
-// btn.onclick = function () {
-//   const summ = Number(num1) * Number(num2);
-//   console.log(summ);
-// };
+const inp1 = prompt("Do you want to find the speed?");
+const inp2 = prompt("Enter distance");
+const inp3 = prompt("Enter time");
 
-// // Second way
-// const num1 = prompt();
-// const num2 = prompt();
-// for (let i = 0; i == 0; i++) {
-//   summ = Number(num1) * Number(num2);
-//   console.log(summ);
-// }
+function speed() {
+  const spid = Number(inp2) / Number(inp3);
+  console.log(spid);
+}
+
+switch (inp1) {
+  case "yes":
+    speed();
+    break;
+  default:
+    console.log("ERROR");
+    break;
+}
